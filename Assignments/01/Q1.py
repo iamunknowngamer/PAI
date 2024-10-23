@@ -25,6 +25,9 @@ class Mammal(Animal):
         print(f"Fur Length: {self.furLen}")
         print(f"Diet Type: {self.diet}")
         print(f"Availability: {self.availability}\n")
+    
+    def Update(self, flag):
+        self.availability = flag
 
 
 class Bird(Animal):
@@ -41,6 +44,9 @@ class Bird(Animal):
         print(f"Flight Altitude: {self.flightAltitude}")
         print(f"Availability: {self.availability}\n")
 
+    def Update(self, flag):
+        self.availability = flag
+
 
 class Reptile(Animal):
     def __init__(self, name, age, habitat, scalePattern, isVenomous):
@@ -56,6 +62,9 @@ class Reptile(Animal):
         print(f"Scale Pattern: {self.scalePattern}")
         print(f"Venom Status: {venom}")
         print(f"Availability: {self.availability}\n")
+    
+    def Update(self, flag):
+        self.availability = flag
 
 
 #Driver Code
@@ -68,9 +77,9 @@ dolphin.Display()
 hawk.Display()
 snake.Display()
 
-dolphin.isAvailable(False)
-hawk.isAvailable(True)
-snake.isAvailable(False)
+dolphin.Update(False)
+hawk.Update(True)
+snake.Update(False)
 
 print("------------------After updating------------------\n")
 dolphin.Display()
