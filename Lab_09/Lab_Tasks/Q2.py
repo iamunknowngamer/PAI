@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-name = ['Krachi','Lahore','islamabad','Peshawar','NawabShah','Larkana','Hyderabad','Maree']
+name = ['Karachi','Lahore','islamabad','Peshawar','NawabShah','Larkana','Hyderabad','Maree']
 
 Population = [80,58,84,95,70,100,80,75]
 
