@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-name = ['Raghib','Fahad','Umar','Abdul Rahman','Talha','Saif','Adina','Sara','Hafsa','Arwa']
+name = ['Saif','Fahad','Umar','Abdul Rahman','Talha','Raghib','Adina','Sara','Hafsa','Arwa']
 
 Height = [80,58,84,95,70,100,80,75,80,100]
 
