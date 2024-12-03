@@ -62,3 +62,21 @@ print(sentences)
 
 # print("Original Words: ", words)
 # print("Stemmed Words as noun: ", filtered_words)
+
+
+# #stemming a paragraph
+# import nltk
+# from nltk.corpus import stopwords
+# from nltk.stem import PorterStemmer
+
+# text = "The running dogs were running fast through the park. They had run for hours, and they were exhausted but still running energetically. The runners in the race were also feeling the same way, as the race had been challenging."
+
+# sentences = nltk.sent_tokenize(text)
+# stemmer = PorterStemmer()
+
+# for i in range(len(sentences)):
+#     words = nltk.tokenize(sentences[i])
+#     words = [stemmer.stem(word) for word in words if word not in set(stopwords.words('english'))]
+#     sentences[i] = ' '.join(words)
+
+# print(sentences)
