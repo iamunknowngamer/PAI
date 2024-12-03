@@ -80,3 +80,21 @@ print(sentences)
 #     sentences[i] = ' '.join(words)
 
 # print(sentences)
+
+
+#lemetizing a paragraph
+# import nltk
+# from nltk.corpus import stopwords
+# from nltk.stem import WordNetLemmatizer
+
+# text = "The running dogs were running fast through the park. They had run for hours, and they were exhausted but still running energetically. The runners in the race were also feeling the same way, as the race had been challenging."
+
+# sentences = nltk.sent_tokenize(text)
+# lemetizar = WordNetLemmatizer()
+
+# for i in range(len(sentences)):
+#     words = nltk.tokenize(sentences[i])
+#     words = [lemetizar.stem(word) for word in words if word not in set(stopwords.words('english'))]
+#     sentences[i] = ' '.join(words)
+
+# print(sentences)
